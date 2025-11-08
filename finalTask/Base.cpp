@@ -6,9 +6,9 @@ double Base::petrol_on_base = 500;
 double Base::goods_on_base = 20;
 
 void Base::printStatus() {
-    std::cout << "\nBASE STATUS\n";
-    std::cout << "People: " << people_on_base << "\n";
-    std::cout << "Vehicles: " << vehicles_on_base << "\n";
-    std::cout << "Petrol: " << petrol_on_base << " L\n";
-    std::cout << "Goods: " << goods_on_base << " tons\n";
+    cout << "\nBASE STATUS\n";
+    cout << "People: " << people_on_base << "\n";
+    cout << "Vehicles: " << vehicles_on_base << "\n";
+    cout << "Petrol: " << petrol_on_base << " L\n";
+    cout << "Goods: " << goods_on_base << " tons\n";
 }
